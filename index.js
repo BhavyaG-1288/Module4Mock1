@@ -7,7 +7,7 @@ app.use(express.json());
 let PORT=process.env.SERVER_PORT
 
 app.use("/",(req, res)=>{
-    res.send("This is a test route");
+    res.send("This is a Test route");
 });
 app.listen(PORT,()=>{
     console.log("Server started");
